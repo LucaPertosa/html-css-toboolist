@@ -77,7 +77,6 @@ main.container{
 /* LIST */
 .u-list{
     list-style-type:none;
-    padding: 1rem;
 }
 .list-entity{
     padding: .5rem;
