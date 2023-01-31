@@ -5,18 +5,20 @@
 }
 /* COMMON */
 body{
-    background-color: white;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
 hr{
     color: grey;
 }
 
+
 /* HEADER */
 header{
     height: 50px;
-    margin: 15px 20px;
+    padding: 1rem 1.4rem;
     background-color: white;
+    box-sizing: content-box;
 }
 
 .page-title{
@@ -28,8 +30,9 @@ header{
 
 /* MAIN */
 main.container{
-    margin: 0 50px 0 50px;
+    margin: 10px 50px 0 50px;
     padding: 1rem;
+    background-color: white;
 }
 .buttons{
     margin: 15px 40px ;
@@ -48,6 +51,15 @@ main.container{
     color: grey;
     background-color: white;
     border: 0.1px solid grey;
+}
+.u-list{
+    list-style-type:none;
+}
+.done{
+    color: green;
+}
+.undone{
+    color: red;
 }
 /* /MAIN */
 
