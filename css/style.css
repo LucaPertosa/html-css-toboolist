@@ -1,9 +1,9 @@
+/* COMMON */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* COMMON */
 body{
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,8 +74,6 @@ main.container{
     color: white;
     background-color: palevioletred
 }
-
-
 /* LIST */
 .u-list{
     list-style-type:none;
@@ -109,8 +107,6 @@ main.container{
     border-radius: .6rem;
     font-size: .7rem;
 }
-&#9662{
-    border: 1px;    
-}
+/* /LIST */
 /* /MAIN */
 
